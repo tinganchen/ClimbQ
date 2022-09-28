@@ -27,7 +27,7 @@ NeurIPS 2022 Accepted Paper - Quantization, Efficient Inference, Imbalance Learn
 cd src/
 ```
 ```shell
-mkdir data_dir
+mkdir data_dir/
 ```
 
 Save training (testing) image data to the path src/data_dir/cifar10/. (e.g. src/data_dir/cifar10/train/airplane/0001.jpg)
