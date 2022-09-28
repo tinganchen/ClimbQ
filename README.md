@@ -47,7 +47,7 @@ Files 'cifar10_train10.csv' and 'cifar10_test.csv' are shown under src/.
 * e.g. 4-bit ResNet-20 on CIFAR-10-LT (gamma = 10).
 
 ```shell
-mv -r *.csv resnet-20-cifar-10/data
+mv -r *.csv resnet-20-cifar-10/data/
 ```
 
 ```shell
@@ -56,7 +56,7 @@ cd resnet-20-cifar-10/
 Pretrain and save models to the path resnet-20-cifar-10/pretrained/.
 
 ```shell
-python3 main.py --job_dir "experiment/ours/resnet/t_4bit_pre32bit" --method "ours" --source_dir "pretrained" --source_file "res20_32bit/model_best.pt" --arch resnet --bitW 4 --abitW 4 --target_model "resnet20_quant" --source_model "resnet20" --lt_gamma 10 --num_epochs 50 --train_batch_size 128 --eval_batch_size 100 --lr 0.04
+python3 main.py --csv_dir data/ --job_dir "experiment/ours/resnet/t_4bit_pre32bit" --method "ours" --source_dir "pretrained" --source_file "res20_32bit/model_best.pt" --arch resnet --bitW 4 --abitW 4 --target_model "resnet20_quant" --source_model "resnet20" --lt_gamma 10 --num_epochs 50 --train_batch_size 128 --eval_batch_size 100 --lr 0.04
 ```
 
 
