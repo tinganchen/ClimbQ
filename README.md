@@ -66,7 +66,7 @@ Generated csv files are located under data/.
 
 Pretrain and save models to the path resnet-20-cifar-10/pretrained/.
 
-##### 1. Quantize & Test
+##### 2. Quantize & Test
 
 ```shell
 python3 main.py --csv_dir data/ --job_dir "experiment/ours/resnet/t_4bit_pre32bit" --method "ours" --source_dir "pretrained" --source_file "res20_32bit/model_best.pt" --arch resnet --bitW 4 --abitW 4 --target_model "resnet20_quant" --source_model "resnet20" --lt_gamma 10 --num_epochs 50 --train_batch_size 128 --eval_batch_size 100 --lr 0.04
