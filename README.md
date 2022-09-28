@@ -42,17 +42,23 @@ python3 longTailDataGeneator.py --data_dir "src/data_dir/cifar10/" --output_csv 
 
 Files 'cifar10_train10.csv' and 'cifar10_test.csv' are shown under src/.
 
-### Training & Testing
-
-* e.g. 4-bit ResNet-20 on CIFAR-10-LT (gamma = 10).
 
 ```shell
 mv -r *.csv resnet-20-cifar-10/data/
 ```
 
+ps. These two steps are neglibible since the csv files have been generated in the specific directories (see the next step).
+
+### Training & Testing
+
+* e.g. 4-bit ResNet-20 on CIFAR-10-LT (gamma = 10).
+
 ```shell
 cd resnet-20-cifar-10/
 ```
+
+Generated csv files are located under data/.
+
 Pretrain and save models to the path resnet-20-cifar-10/pretrained/.
 
 ```shell
