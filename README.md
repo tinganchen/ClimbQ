@@ -25,6 +25,8 @@ NeurIPS 2022 Accepted Paper - Quantization, Efficient Inference, Imbalance Learn
 
 ```shell
 cd src/
+```
+```shell
 mkdir data_dir
 ```
 
