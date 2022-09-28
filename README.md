@@ -1,7 +1,7 @@
 # ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences
 NeurIPS 2022 Accepted Paper - Quantization, Efficient Inference, Imbalance Learning (Long-tail)
 
-<img src="img/overview.pdf" width="500" height="250">
+<img src="img/overview.png" width="500" height="250">
 
 ## Requirements
 
