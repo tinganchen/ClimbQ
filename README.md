@@ -1,9 +1,9 @@
 # ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences
 NeurIPS 2022 Accepted Paper - Quantization, Efficient Inference, Imbalance Learning (Long-tail)
 
-<img src="img/overview.png" width="550" height="250">
+<img src="img/overview.png" width="600" height="250">
 
-* **Motivation**: our main contribution is to diminish the quantization error from the heterogeneity of class distributions (variations & sample numbers)
+* **Motivation**: to diminish the quantization error from the heterogeneity of class distributions (variations & sample numbers)
 
 * **Method**: class distribution scaling + rebalance loss for homogeneity of class variances
 
