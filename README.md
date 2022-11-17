@@ -79,7 +79,7 @@ python3 main.py --csv_dir data/ --job_dir "experiment/ours/resnet/t_4bit_pre32bi
 @inproceedings{
   chen2022climbq,
   title={ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences},
-  author={Ting-An Chen and Ming-syan Chen},
+  author={Ting-An Chen and Ming-Syan Chen},
   booktitle={Advances in Neural Information Processing Systems},
   editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
   year={2022},
